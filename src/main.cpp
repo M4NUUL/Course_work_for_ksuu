@@ -18,6 +18,10 @@
 #include "threats.hpp"
 #include "search_session.hpp"
 
+// НОВОЕ: обновление БДУ (скачивание + конвертация)
+#include "downloader.hpp"
+#include "xlsx_converter.hpp"
+
 static void set_console_utf8() {
 #ifdef _WIN32
     SetConsoleOutputCP(CP_UTF8);
@@ -50,7 +54,6 @@ static void fake_loading() {
     std::cout << "\n";
 }
 
-// Скрытый ввод пароля (без отображения символов)
 static std::string read_password(const std::string& prompt) {
     std::cout << prompt;
     std::cout.flush();
@@ -60,15 +63,15 @@ static std::string read_password(const std::string& prompt) {
 #ifdef _WIN32
     while (true) {
         int ch = _getch();
-        if (ch == '\r' || ch == '\n') { // Enter
+        if (ch == '\r' || ch == '\n') {
             std::cout << "\n";
             break;
         }
-        if (ch == '\b') { // Backspace
+        if (ch == '\b') {
             if (!pass.empty()) pass.pop_back();
             continue;
         }
-        if (ch == 0 || ch == 224) { // спецклавиши
+        if (ch == 0 || ch == 224) {
             _getch();
             continue;
         }
@@ -134,7 +137,8 @@ static void show_main_menu(const std::string& login) {
         "1. Найти угрозу по идентификатору УБИ\n"
         "2. Поиск по ключевому слову (добавить в отчёт)\n"
         "3. Экспорт отчёта в CSV\n"
-        "4. Выход\n"
+        "4. Обновить банк угроз (скачать XLSX + конвертировать в CSV)\n"
+        "5. Выход\n"
         "> ";
 }
 
@@ -183,12 +187,49 @@ static bool auth_screen(AuthService& auth, User& out_user) {
             continue;
         }
 
-        if (choice == 3) {
-            return false;
-        }
+        if (choice == 3) return false;
 
         std::cout << "Неверный выбор.\n\n";
     }
+}
+
+static void ensure_data_dirs() {
+#ifdef _WIN32
+    system("mkdir data >nul 2>nul");
+    system("mkdir exports >nul 2>nul");
+#else
+    system("mkdir -p data >/dev/null 2>/dev/null");
+    system("mkdir -p exports >/dev/null 2>/dev/null");
+#endif
+}
+
+static void update_bdu_files_only() {
+    // Источник
+    const std::string url = "https://bdu.fstec.ru/files/documents/thrlist.xlsx";
+    // Куда сохраняем
+    const std::string xlsx_path = "data/thrlist.xlsx";
+    const std::string csv_path  = "data/thrlist.csv";
+
+    ensure_data_dirs();
+
+    std::cout << "Обновление банка угроз:\n";
+    std::cout << "1) Скачивание XLSX...\n";
+
+    std::string err;
+    if (!download_https(url, xlsx_path, err)) {
+        std::cout << "Ошибка скачивания: " << err << "\n\n";
+        return;
+    }
+    std::cout << "OK: " << xlsx_path << "\n";
+
+    std::cout << "2) Конвертация XLSX -> CSV...\n";
+    if (!convert_xlsx_to_csv(xlsx_path, csv_path, err)) {
+        std::cout << "Ошибка конвертации: " << err << "\n\n";
+        return;
+    }
+    std::cout << "OK: " << csv_path << "\n\n";
+
+    std::cout << "Готово: файл CSV подготовлен. Следующий шаг — импорт/UPSERT в PostgreSQL.\n\n";
 }
 
 int main() {
@@ -217,7 +258,7 @@ int main() {
             std::cin >> cmd;
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
-            if (cmd == 4) {
+            if (cmd == 5) {
                 std::cout << "Выход...\n";
                 break;
             }
@@ -284,14 +325,9 @@ int main() {
                     continue;
                 }
 
+                ensure_data_dirs();
+
                 std::string path = "exports/selected_threats.csv";
-
-#ifdef _WIN32
-                system("mkdir exports >nul 2>nul");
-#else
-                system("mkdir -p exports >/dev/null 2>/dev/null");
-#endif
-
                 std::string err;
                 if (!session.export_csv(path, err)) {
                     std::cout << "Ошибка экспорта: " << err << "\n\n";
@@ -299,6 +335,11 @@ int main() {
                 }
 
                 std::cout << "Экспорт выполнен: " << path << "\n\n";
+                continue;
+            }
+
+            if (cmd == 4) {
+                update_bdu_files_only();
                 continue;
             }
 
