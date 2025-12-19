@@ -1,34 +1,31 @@
-// [1]  main.cpp
-#include <iostream>   // [2]
-#include <string>     // [3]
-#include <thread>     // [4]
-#include <chrono>     // [5]
-#include <limits>     // [6]
-#include <cctype>     // [7]
+#include <iostream>
+#include <string>
+#include <thread>
+#include <chrono>
+#include <limits>
+#include <cctype>
 
-// --- password hidden input deps --- // [9]
 #ifdef _WIN32
-  #include <windows.h>  // [11]
-  #include <conio.h>    // [12]
+  #include <windows.h>
+  #include <conio.h>
 #else
-  #include <termios.h>  // [14]
-  #include <unistd.h>   // [15]
+  #include <termios.h>
+  #include <unistd.h>
 #endif
 
-#include "db.hpp"        // [18]
-#include "auth.hpp"      // [19]
-#include "threats.hpp"   // [20]
+#include "db.hpp"
+#include "auth.hpp"
+#include "threats.hpp"
+#include "search_session.hpp"
 
-// ===================== UTILITIES ===================== // [22]
-
-static void set_console_utf8() { // [24]
+static void set_console_utf8() {
 #ifdef _WIN32
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
 #endif
 }
 
-static void clear_screen() { // [32]
+static void clear_screen() {
 #ifdef _WIN32
     system("cls");
 #else
@@ -36,14 +33,14 @@ static void clear_screen() { // [32]
 #endif
 }
 
-static void show_banner() { // [40]
+static void show_banner() {
     std::cout <<
         "========================================\n"
         "        БАЗА ДАННЫХ УГРОЗ ФСТЭК\n"
         "========================================\n\n";
 }
 
-static void fake_loading() { // [48]
+static void fake_loading() {
     std::cout << "Загрузка";
     for (int i = 0; i < 3; ++i) {
         std::cout << ".";
@@ -53,8 +50,8 @@ static void fake_loading() { // [48]
     std::cout << "\n";
 }
 
-// Скрытый ввод пароля (без отображения символов) // [60]
-static std::string read_password(const std::string& prompt) { // [61]
+// Скрытый ввод пароля (без отображения символов)
+static std::string read_password(const std::string& prompt) {
     std::cout << prompt;
     std::cout.flush();
 
@@ -71,8 +68,7 @@ static std::string read_password(const std::string& prompt) { // [61]
             if (!pass.empty()) pass.pop_back();
             continue;
         }
-        // стрелки/функц. клавиши
-        if (ch == 0 || ch == 224) {
+        if (ch == 0 || ch == 224) { // спецклавиши
             _getch();
             continue;
         }
@@ -99,7 +95,6 @@ static std::string read_password(const std::string& prompt) { // [61]
 }
 
 static bool is_valid_ubi_code(const std::string& input) {
-    // убираем пробелы по краям (на всякий случай)
     auto trim = [](std::string s) {
         while (!s.empty() && std::isspace((unsigned char)s.front())) s.erase(s.begin());
         while (!s.empty() && std::isspace((unsigned char)s.back())) s.pop_back();
@@ -108,7 +103,6 @@ static bool is_valid_ubi_code(const std::string& input) {
 
     std::string s = trim(input);
 
-    // поддержим и "УБИ.", и "UBI." (удобно, если раскладка не та)
     const std::string p1 = "УБИ.";
     const std::string p2 = "UBI.";
 
@@ -117,7 +111,6 @@ static bool is_valid_ubi_code(const std::string& input) {
     else if (s.rfind(p2, 0) == 0) prefix_len = p2.size();
     else return false;
 
-    // после префикса должны быть ровно 3 цифры и больше ничего
     if (s.size() != prefix_len + 3) return false;
 
     return std::isdigit((unsigned char)s[prefix_len]) &&
@@ -126,32 +119,26 @@ static bool is_valid_ubi_code(const std::string& input) {
 }
 
 static std::string normalize_ubi_code(std::string s) {
-    // trim
     while (!s.empty() && std::isspace((unsigned char)s.front())) s.erase(s.begin());
     while (!s.empty() && std::isspace((unsigned char)s.back())) s.pop_back();
 
-    // UBI. -> УБИ.
     if (s.rfind("UBI.", 0) == 0) {
         s.replace(0, 4, "УБИ.");
     }
     return s;
 }
 
-
-// ===================== UI MENUS ===================== // [122]
-
-static void show_main_menu(const std::string& login) { // [124]
+static void show_main_menu(const std::string& login) {
     std::cout << "Добро пожаловать, " << login << "!\n\n";
     std::cout <<
         "1. Найти угрозу по идентификатору УБИ\n"
-        "2. Управление данными (в разработке)\n"
-        "3. Отчёты и экспорт (в разработке)\n"
+        "2. Поиск по ключевому слову (добавить в отчёт)\n"
+        "3. Экспорт отчёта в CSV\n"
         "4. Выход\n"
         "> ";
 }
 
-// auth_screen: true = вошли, false = выход // [137]
-static bool auth_screen(AuthService& auth, User& out_user) { // [138]
+static bool auth_screen(AuthService& auth, User& out_user) {
     while (true) {
         std::cout <<
             "1. Войти\n"
@@ -204,9 +191,7 @@ static bool auth_screen(AuthService& auth, User& out_user) { // [138]
     }
 }
 
-// ===================== MAIN ===================== // [196]
-
-int main() { // [198]
+int main() {
     set_console_utf8();
     clear_screen();
     show_banner();
@@ -214,13 +199,13 @@ int main() { // [198]
     clear_screen();
 
     try {
-        // [208] IMPORTANT: если поменяешь пароль/логин БД — правь строку тут.
-        Db db("host=localhost port=5432 dbname=bdu user=bdu_app password=bdu_pass"); // [209]
-        AuthService auth(db);       // [210]
-        ThreatRepository threats(db); // [211]
+        Db db("host=localhost port=5432 dbname=bdu user=bdu_app password=bdu_pass");
+        AuthService auth(db);
+        ThreatRepository threats(db);
+        SearchSession session;
 
-        User current; // [213]
-        if (!auth_screen(auth, current)) { // [214]
+        User current;
+        if (!auth_screen(auth, current)) {
             std::cout << "Выход...\n";
             return 0;
         }
@@ -241,7 +226,7 @@ int main() { // [198]
                 std::string code;
                 std::cout << "Введите УБИ-код (пример: УБИ.001): ";
                 std::getline(std::cin, code);
-                code = normalize_ubi_code(code);  
+                code = normalize_ubi_code(code);
 
                 if (!is_valid_ubi_code(code)) {
                     std::cout << "Ошибка: неверный формат. Используйте УБИ.001\n\n";
@@ -261,7 +246,63 @@ int main() { // [198]
                 continue;
             }
 
-            std::cout << "[Пункт пока в разработке]\n\n";
+            if (cmd == 2) {
+                std::string keyword;
+                std::cout << "Введите ключевое слово (пример: wifi): ";
+                std::getline(std::cin, keyword);
+
+                if (keyword.empty()) {
+                    std::cout << "Пустой запрос.\n\n";
+                    continue;
+                }
+
+                auto found = threats.search_by_keyword(keyword);
+                if (found.empty()) {
+                    std::cout << "Ничего не найдено.\n\n";
+                    continue;
+                }
+
+                int added = session.add(found);
+
+                std::cout << "Найдено: " << found.size()
+                          << ", добавлено в отчёт (новых): " << added
+                          << ", всего в отчёте: " << session.size() << "\n";
+
+                std::cout << "Результаты (первые 20):\n";
+                int shown = 0;
+                for (const auto& t : found) {
+                    std::cout << " - " << t.code << " — " << t.title << "\n";
+                    if (++shown >= 20) break;
+                }
+                std::cout << "\n";
+                continue;
+            }
+
+            if (cmd == 3) {
+                if (session.size() == 0) {
+                    std::cout << "Отчёт пуст. Сначала добавьте угрозы через поиск по слову.\n\n";
+                    continue;
+                }
+
+                std::string path = "exports/selected_threats.csv";
+
+#ifdef _WIN32
+                system("mkdir exports >nul 2>nul");
+#else
+                system("mkdir -p exports >/dev/null 2>/dev/null");
+#endif
+
+                std::string err;
+                if (!session.export_csv(path, err)) {
+                    std::cout << "Ошибка экспорта: " << err << "\n\n";
+                    continue;
+                }
+
+                std::cout << "Экспорт выполнен: " << path << "\n\n";
+                continue;
+            }
+
+            std::cout << "Неизвестная команда.\n\n";
         }
 
         return 0;

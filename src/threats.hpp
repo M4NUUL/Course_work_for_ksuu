@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include <optional>
+#include <vector>
 
 class Db;
 
@@ -17,6 +18,7 @@ public:
     explicit ThreatRepository(Db& db);
     std::optional<Threat> get_by_code(const std::string& threat_code);
 
+    std::vector<Threat> search_by_keyword(const std::string& keyword, int limit = 200);
 private:
     Db& db_;
 };
