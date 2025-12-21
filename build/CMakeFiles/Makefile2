@@ -185,12 +185,12 @@ external/OpenXLSX/Tests/clean: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.
 CMakeFiles/bdu_cli.dir/all: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bdu_cli.dir/build.make CMakeFiles/bdu_cli.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bdu_cli.dir/build.make CMakeFiles/bdu_cli.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=62,63,64,65,66,67,68,69,70 "Built target bdu_cli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=62,63,64,65,66,67,68,69,70,71 "Built target bdu_cli"
 .PHONY : CMakeFiles/bdu_cli.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bdu_cli.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bdu_cli.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles 0
 .PHONY : CMakeFiles/bdu_cli.dir/rule

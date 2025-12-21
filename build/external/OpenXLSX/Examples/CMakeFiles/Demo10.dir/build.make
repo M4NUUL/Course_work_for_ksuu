@@ -73,15 +73,15 @@ external/OpenXLSX/Examples/CMakeFiles/Demo10.dir/Demo10.cpp.o: external/OpenXLSX
 external/OpenXLSX/Examples/CMakeFiles/Demo10.dir/Demo10.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo10.cpp
 external/OpenXLSX/Examples/CMakeFiles/Demo10.dir/Demo10.cpp.o: external/OpenXLSX/Examples/CMakeFiles/Demo10.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/OpenXLSX/Examples/CMakeFiles/Demo10.dir/Demo10.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Examples/CMakeFiles/Demo10.dir/Demo10.cpp.o -MF CMakeFiles/Demo10.dir/Demo10.cpp.o.d -o CMakeFiles/Demo10.dir/Demo10.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo10.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Examples/CMakeFiles/Demo10.dir/Demo10.cpp.o -MF CMakeFiles/Demo10.dir/Demo10.cpp.o.d -o CMakeFiles/Demo10.dir/Demo10.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo10.cpp
 
 external/OpenXLSX/Examples/CMakeFiles/Demo10.dir/Demo10.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Demo10.dir/Demo10.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo10.cpp > CMakeFiles/Demo10.dir/Demo10.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo10.cpp > CMakeFiles/Demo10.dir/Demo10.cpp.i
 
 external/OpenXLSX/Examples/CMakeFiles/Demo10.dir/Demo10.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Demo10.dir/Demo10.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo10.cpp -o CMakeFiles/Demo10.dir/Demo10.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo10.cpp -o CMakeFiles/Demo10.dir/Demo10.cpp.s
 
 # Object files for target Demo10
 Demo10_OBJECTS = \
@@ -92,7 +92,7 @@ Demo10_EXTERNAL_OBJECTS =
 
 output/Demo10: external/OpenXLSX/Examples/CMakeFiles/Demo10.dir/Demo10.cpp.o
 output/Demo10: external/OpenXLSX/Examples/CMakeFiles/Demo10.dir/build.make
-output/Demo10: output/libOpenXLSX.a
+output/Demo10: output/libOpenXLSXd.a
 output/Demo10: external/OpenXLSX/Examples/CMakeFiles/Demo10.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../output/Demo10"
 	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Demo10.dir/link.txt --verbose=$(VERBOSE)

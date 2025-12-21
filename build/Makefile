@@ -426,6 +426,30 @@ src/downloader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/bdu_cli.dir/build.make CMakeFiles/bdu_cli.dir/src/downloader.cpp.s
 .PHONY : src/downloader.cpp.s
 
+src/importer.o: src/importer.cpp.o
+.PHONY : src/importer.o
+
+# target to build an object file
+src/importer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bdu_cli.dir/build.make CMakeFiles/bdu_cli.dir/src/importer.cpp.o
+.PHONY : src/importer.cpp.o
+
+src/importer.i: src/importer.cpp.i
+.PHONY : src/importer.i
+
+# target to preprocess a source file
+src/importer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bdu_cli.dir/build.make CMakeFiles/bdu_cli.dir/src/importer.cpp.i
+.PHONY : src/importer.cpp.i
+
+src/importer.s: src/importer.cpp.s
+.PHONY : src/importer.s
+
+# target to generate assembly for a file
+src/importer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bdu_cli.dir/build.make CMakeFiles/bdu_cli.dir/src/importer.cpp.s
+.PHONY : src/importer.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -559,6 +583,9 @@ help:
 	@echo "... src/downloader.o"
 	@echo "... src/downloader.i"
 	@echo "... src/downloader.s"
+	@echo "... src/importer.o"
+	@echo "... src/importer.i"
+	@echo "... src/importer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

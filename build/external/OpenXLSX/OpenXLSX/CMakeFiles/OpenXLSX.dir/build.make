@@ -73,379 +73,379 @@ external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o: externa
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCell.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCell.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCell.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCell.cpp > CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCell.cpp > CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCell.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCell.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellIterator.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellIterator.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellIterator.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellIterator.cpp > CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellIterator.cpp > CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellIterator.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellIterator.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellRange.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellRange.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellRange.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellRange.cpp > CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellRange.cpp > CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellRange.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellRange.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellReference.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellReference.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellReference.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellReference.cpp > CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellReference.cpp > CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellReference.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellReference.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellValue.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellValue.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellValue.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellValue.cpp > CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellValue.cpp > CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellValue.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellValue.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColor.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColor.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColor.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColor.cpp > CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColor.cpp > CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColor.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColor.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColumn.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColumn.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColumn.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColumn.cpp > CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColumn.cpp > CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColumn.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColumn.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLComments.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLComments.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLComments.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLComments.cpp > CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLComments.cpp > CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLComments.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLComments.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLContentTypes.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLContentTypes.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLContentTypes.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLContentTypes.cpp > CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLContentTypes.cpp > CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLContentTypes.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLContentTypes.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDateTime.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDateTime.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDateTime.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDateTime.cpp > CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDateTime.cpp > CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDateTime.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDateTime.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDocument.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDocument.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDocument.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDocument.cpp > CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDocument.cpp > CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDocument.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDocument.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDrawing.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDrawing.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDrawing.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDrawing.cpp > CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDrawing.cpp > CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDrawing.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDrawing.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLFormula.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLFormula.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLFormula.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLFormula.cpp > CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLFormula.cpp > CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLFormula.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLFormula.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLMergeCells.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLMergeCells.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLMergeCells.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLMergeCells.cpp > CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLMergeCells.cpp > CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLMergeCells.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLMergeCells.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLProperties.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLProperties.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLProperties.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLProperties.cpp > CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLProperties.cpp > CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLProperties.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLProperties.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRelationships.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRelationships.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRelationships.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRelationships.cpp > CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRelationships.cpp > CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRelationships.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRelationships.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRow.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRow.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRow.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRow.cpp > CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRow.cpp > CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRow.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRow.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRowData.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRowData.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRowData.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRowData.cpp > CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRowData.cpp > CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRowData.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRowData.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSharedStrings.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSharedStrings.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSharedStrings.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSharedStrings.cpp > CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSharedStrings.cpp > CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSharedStrings.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSharedStrings.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSheet.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSheet.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSheet.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSheet.cpp > CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSheet.cpp > CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSheet.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSheet.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLStyles.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLStyles.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLStyles.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLStyles.cpp > CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLStyles.cpp > CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLStyles.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLStyles.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLTables.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLTables.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLTables.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLTables.cpp > CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLTables.cpp > CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLTables.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLTables.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLWorkbook.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLWorkbook.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLWorkbook.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLWorkbook.cpp > CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLWorkbook.cpp > CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLWorkbook.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLWorkbook.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlData.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlData.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlData.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlData.cpp > CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlData.cpp > CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlData.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlData.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlFile.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlFile.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlFile.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlFile.cpp > CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlFile.cpp > CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlFile.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlFile.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlParser.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlParser.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlParser.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlParser.cpp > CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlParser.cpp > CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlParser.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlParser.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.s
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/flags.make
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLZipArchive.cpp
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLZipArchive.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o -MF CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o.d -o CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLZipArchive.cpp
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLZipArchive.cpp > CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLZipArchive.cpp > CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.i
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLZipArchive.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLZipArchive.cpp -o CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.s
 
 # Object files for target OpenXLSX
 OpenXLSX_OBJECTS = \
@@ -480,41 +480,41 @@ OpenXLSX_OBJECTS = \
 # External object files for target OpenXLSX
 OpenXLSX_EXTERNAL_OBJECTS =
 
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/build.make
-output/libOpenXLSX.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX static library ../../../output/libOpenXLSX.a"
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/build.make
+output/libOpenXLSXd.a: external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX static library ../../../output/libOpenXLSXd.a"
 	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && $(CMAKE_COMMAND) -P CMakeFiles/OpenXLSX.dir/cmake_clean_target.cmake
 	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenXLSX.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/build: output/libOpenXLSX.a
+external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/build: output/libOpenXLSXd.a
 .PHONY : external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/build
 
 external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/clean:

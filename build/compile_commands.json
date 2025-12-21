@@ -1,0 +1,350 @@
+[
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /usr/include/postgresql -g -std=c++17 -Wall -Wextra -o CMakeFiles/bdu_cli.dir/src/main.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/main.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/main.cpp",
+  "output": "CMakeFiles/bdu_cli.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /usr/include/postgresql -g -std=c++17 -Wall -Wextra -o CMakeFiles/bdu_cli.dir/src/db.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/db.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/db.cpp",
+  "output": "CMakeFiles/bdu_cli.dir/src/db.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /usr/include/postgresql -g -std=c++17 -Wall -Wextra -o CMakeFiles/bdu_cli.dir/src/auth.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/auth.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/auth.cpp",
+  "output": "CMakeFiles/bdu_cli.dir/src/auth.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /usr/include/postgresql -g -std=c++17 -Wall -Wextra -o CMakeFiles/bdu_cli.dir/src/crypto.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/crypto.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/crypto.cpp",
+  "output": "CMakeFiles/bdu_cli.dir/src/crypto.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /usr/include/postgresql -g -std=c++17 -Wall -Wextra -o CMakeFiles/bdu_cli.dir/src/threats.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/threats.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/threats.cpp",
+  "output": "CMakeFiles/bdu_cli.dir/src/threats.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /usr/include/postgresql -g -std=c++17 -Wall -Wextra -o CMakeFiles/bdu_cli.dir/src/search_session.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/search_session.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/search_session.cpp",
+  "output": "CMakeFiles/bdu_cli.dir/src/search_session.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /usr/include/postgresql -g -std=c++17 -Wall -Wextra -o CMakeFiles/bdu_cli.dir/src/downloader.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/downloader.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/downloader.cpp",
+  "output": "CMakeFiles/bdu_cli.dir/src/downloader.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /usr/include/postgresql -g -std=c++17 -Wall -Wextra -o CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/xlsx_converter.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/xlsx_converter.cpp",
+  "output": "CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /usr/include/postgresql -g -std=c++17 -Wall -Wextra -o CMakeFiles/bdu_cli.dir/src/importer.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/importer.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/importer.cpp",
+  "output": "CMakeFiles/bdu_cli.dir/src/importer.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCell.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCell.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellIterator.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellIterator.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellRange.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellRange.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellRange.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellReference.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellReference.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellReference.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellValue.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLCellValue.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLCellValue.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColor.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColor.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColor.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColumn.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLColumn.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLColumn.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLComments.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLComments.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLComments.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLContentTypes.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLContentTypes.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLContentTypes.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDateTime.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDateTime.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDateTime.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDocument.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDocument.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDocument.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDrawing.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLDrawing.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLDrawing.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLFormula.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLFormula.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLFormula.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLMergeCells.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLMergeCells.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLMergeCells.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLProperties.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLProperties.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLProperties.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRelationships.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRelationships.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRelationships.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRow.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRow.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRow.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRowData.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLRowData.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLRowData.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSharedStrings.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSharedStrings.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSharedStrings.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSheet.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLSheet.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLSheet.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLStyles.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLStyles.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLStyles.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLTables.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLTables.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLTables.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLWorkbook.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLWorkbook.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLWorkbook.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlData.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlData.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlData.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlFile.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlFile.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlFile.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlParser.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLXmlParser.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLXmlParser.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX",
+  "command": "/usr/bin/g++ -DCHARCONV_ENABLED -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/zippy -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/external/pugixml -g -std=c++17 -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wnull-dereference -o CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLZipArchive.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/sources/XLZipArchive.cpp",
+  "output": "external/OpenXLSX/OpenXLSX/CMakeFiles/OpenXLSX.dir/sources/XLZipArchive.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/Demo1.dir/Demo1.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo1.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo1.cpp",
+  "output": "external/OpenXLSX/Examples/CMakeFiles/Demo1.dir/Demo1.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/Demo2.dir/Demo2.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo2.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo2.cpp",
+  "output": "external/OpenXLSX/Examples/CMakeFiles/Demo2.dir/Demo2.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/Demo3.dir/Demo3.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo3.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo3.cpp",
+  "output": "external/OpenXLSX/Examples/CMakeFiles/Demo3.dir/Demo3.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/Demo4.dir/Demo4.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo4.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo4.cpp",
+  "output": "external/OpenXLSX/Examples/CMakeFiles/Demo4.dir/Demo4.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/Demo5.dir/Demo5.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo5.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo5.cpp",
+  "output": "external/OpenXLSX/Examples/CMakeFiles/Demo5.dir/Demo5.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/Demo6.dir/Demo6.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo6.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo6.cpp",
+  "output": "external/OpenXLSX/Examples/CMakeFiles/Demo6.dir/Demo6.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/Demo7.dir/Demo7.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo7.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo7.cpp",
+  "output": "external/OpenXLSX/Examples/CMakeFiles/Demo7.dir/Demo7.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/Demo8.dir/Demo8.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo8.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo8.cpp",
+  "output": "external/OpenXLSX/Examples/CMakeFiles/Demo8.dir/Demo8.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/Demo9.dir/Demo9.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo9.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo9.cpp",
+  "output": "external/OpenXLSX/Examples/CMakeFiles/Demo9.dir/Demo9.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Examples",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/Demo10.dir/Demo10.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo10.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Examples/Demo10.cpp",
+  "output": "external/OpenXLSX/Examples/CMakeFiles/Demo10.dir/Demo10.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/catch -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/OpenXLSXTests.dir/main.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/main.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/main.cpp",
+  "output": "external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/main.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/catch -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDocument.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDocument.cpp",
+  "output": "external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/catch -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCell.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCell.cpp",
+  "output": "external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/catch -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellRange.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellRange.cpp",
+  "output": "external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/catch -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellReference.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellReference.cpp",
+  "output": "external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/catch -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValue.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValue.cpp",
+  "output": "external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/catch -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValueProxy.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValueProxy.cpp",
+  "output": "external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/catch -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLColor.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLColor.cpp",
+  "output": "external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/catch -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDateTime.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDateTime.cpp",
+  "output": "external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/catch -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLFormula.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLFormula.cpp",
+  "output": "external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/catch -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLRow.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLRow.cpp",
+  "output": "external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.o"
+},
+{
+  "directory": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests",
+  "command": "/usr/bin/g++ -DOPENXLSX_STATIC_DEFINE -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers -I/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX -isystem /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/catch -g -std=c++17 -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -o CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLSheet.cpp",
+  "file": "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLSheet.cpp",
+  "output": "external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.o"
+}
+]

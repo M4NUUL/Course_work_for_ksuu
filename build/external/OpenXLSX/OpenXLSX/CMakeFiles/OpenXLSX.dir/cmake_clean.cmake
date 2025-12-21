@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../output/libOpenXLSX.a"
-  "../../../output/libOpenXLSX.pdb"
+  "../../../output/libOpenXLSXd.a"
+  "../../../output/libOpenXLSXd.pdb"
   "CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o"
   "CMakeFiles/OpenXLSX.dir/sources/XLCell.cpp.o.d"
   "CMakeFiles/OpenXLSX.dir/sources/XLCellIterator.cpp.o"

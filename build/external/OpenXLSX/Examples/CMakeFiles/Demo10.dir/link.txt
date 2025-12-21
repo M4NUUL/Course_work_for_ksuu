@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Demo10.dir/Demo10.cpp.o -o ../../../output/Demo10  ../../../output/libOpenXLSX.a 
+/usr/bin/g++ -g CMakeFiles/Demo10.dir/Demo10.cpp.o -o ../../../output/Demo10  ../../../output/libOpenXLSXd.a 

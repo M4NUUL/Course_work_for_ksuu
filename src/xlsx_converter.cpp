@@ -1,158 +1,162 @@
 #include "xlsx_converter.hpp"
-
-#include <fstream>
-#include <string>
-#include <stdexcept>
-#include <cctype>
-
 #include <OpenXLSX.hpp>
 
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <vector>
+#include <cctype>
+
+static std::string trim(std::string s) {
+    while (!s.empty() && std::isspace((unsigned char)s.front())) s.erase(s.begin());
+    while (!s.empty() && std::isspace((unsigned char)s.back())) s.pop_back();
+    return s;
+}
+
 static std::string csv_escape(const std::string& s) {
-    // Разделитель ; (удобно для Excel/русской локали)
+    // CSV с разделителем ';' и кавычками "
     bool need_quotes = false;
     for (char c : s) {
         if (c == ';' || c == '"' || c == '\n' || c == '\r') { need_quotes = true; break; }
     }
-    if (!need_quotes) return s;
-
-    std::string out;
-    out.reserve(s.size() + 8);
-    out.push_back('"');
-    for (char c : s) {
-        if (c == '"') out += "\"\"";
-        else out.push_back(c);
+    std::string out = s;
+    size_t pos = 0;
+    while ((pos = out.find('"', pos)) != std::string::npos) {
+        out.insert(pos, 1, '"'); // " -> ""
+        pos += 2;
     }
-    out.push_back('"');
+    if (need_quotes) out = "\"" + out + "\"";
     return out;
 }
 
-static std::string cell_to_string(const OpenXLSX::XLCell& cell) {
-    using OpenXLSX::XLValueType;
-
-    // Берём ссылку на proxy, НЕ копируем
-    const auto& v = cell.value();
-
+static std::string cell_to_string(OpenXLSX::XLWorksheet& ws, int r, int c) {
     try {
-        switch (v.type()) {
-            case XLValueType::Empty:
+        auto cell = ws.cell(r, c);
+
+        // ВАЖНО: proxy нельзя копировать -> берём как ссылку/forwarding ref
+        auto&& v = cell.value();
+
+        auto t = v.type();
+        switch (t) {
+            case OpenXLSX::XLValueType::Empty:
                 return "";
-            case XLValueType::Boolean:
-                return v.get<bool>() ? "true" : "false";
-            case XLValueType::Integer:
-                return std::to_string(v.get<int64_t>());
-            case XLValueType::Float:
-                return std::to_string(v.get<double>());
-            case XLValueType::String:
-                return v.get<std::string>();
-            case XLValueType::Error:
-                return "#ERROR";
+
+            case OpenXLSX::XLValueType::String:
+                return trim(v.getString());
+
+            case OpenXLSX::XLValueType::Integer: {
+                // В этой версии нет getInteger(), используем шаблонный get<T>()
+                // Берём long long чтобы не потерять
+                long long n = v.get<long long>();
+                return std::to_string(n);
+            }
+
+            case OpenXLSX::XLValueType::Float: {
+                double d = v.get<double>();
+                // уберём хвосты типа 1.000000
+                std::ostringstream oss;
+                oss << d;
+                return trim(oss.str());
+            }
+
+            case OpenXLSX::XLValueType::Boolean: {
+                bool b = v.get<bool>();
+                return b ? "1" : "0";
+            }
+
             default:
-                break;
+                return "";
         }
     } catch (...) {
-        // игнор, пойдём в fallback
+        return "";
     }
-
-    try { return v.get<std::string>(); }
-    catch (...) { return ""; }
 }
 
 
-static bool is_row_empty(OpenXLSX::XLWorksheet& ws, uint32_t row, uint16_t maxColToCheck) {
-    // Считаем строку пустой, если в первых maxColToCheck колонках всё пусто
-    for (uint16_t col = 1; col <= maxColToCheck; ++col) {
-        auto cell = ws.cell(OpenXLSX::XLCellReference(row, col));
-        if (!cell_to_string(cell).empty()) return false;
-    }
-    return true;
+
+static std::string make_ubi_code(long id) {
+    std::ostringstream oss;
+    oss << "УБИ.";
+    if (id < 10) oss << "00";
+    else if (id < 100) oss << "0";
+    oss << id;
+    return oss.str();
 }
 
 bool convert_xlsx_to_csv(const std::string& xlsx_path,
                          const std::string& csv_path,
                          std::string& error)
 {
+    error.clear();
     try {
         OpenXLSX::XLDocument doc;
         doc.open(xlsx_path);
 
         auto wb = doc.workbook();
-        auto sheetNames = wb.worksheetNames();
-        if (sheetNames.empty()) {
-            doc.close();
-            error = "XLSX: нет листов в файле";
-            return false;
-        }
-
-        auto ws = wb.worksheet(sheetNames.at(0));   // первый лист
+        auto ws = wb.worksheet("Sheet"); // в твоём файле лист один и он называется Sheet
 
         std::ofstream out(csv_path, std::ios::binary);
-        if (!out) {
+        if (!out.is_open()) {
             doc.close();
-            error = "Не удалось открыть CSV для записи: " + csv_path;
+            error = "cannot write csv: " + csv_path;
             return false;
         }
 
-        // ----------------------------
-        // ВЫЧИСЛЯЕМ КОЛ-ВО КОЛОНОК:
-        // Берём 1-ю строку (заголовки) и идём вправо пока не встретили пустоту N раз подряд.
-        // ----------------------------
-        const uint32_t headerRow = 1;
-        uint16_t maxCols = 1;
-        int emptyStreak = 0;
-        const int emptyLimit = 3;          // 3 пустых подряд -> конец
-        const uint16_t hardMaxCols = 200;  // защита
+        // Заголовок CSV под нашу БД
+        out << "threat_code;title;description;consequences;source\n";
 
-        for (uint16_t col = 1; col <= hardMaxCols; ++col) {
-            auto v = cell_to_string(ws.cell(OpenXLSX::XLCellReference(headerRow, col)));
-            if (v.empty()) emptyStreak++;
-            else {
-                emptyStreak = 0;
-                maxCols = col;
+        // В XLSX: строка 2 — заголовки, данные идут с 3-й строки
+        for (int r = 3; r <= 50000; ++r) {
+            // col1: Идентификатор УБИ (число)
+            std::string id_str = cell_to_string(ws, r, 1);
+            if (id_str.empty()) continue;
+
+            long id = 0;
+            try {
+                id = std::stol(id_str);
+            } catch (...) {
+                continue; // если вдруг не число
             }
-            if (emptyStreak >= emptyLimit) break;
+
+            std::string code = make_ubi_code(id);
+
+            // col2: Наименование УБИ
+            std::string title = cell_to_string(ws, r, 2);
+            // col3: Описание
+            std::string desc = cell_to_string(ws, r, 3);
+            // col4: Источник угрозы...
+            std::string source = cell_to_string(ws, r, 4);
+
+            // col6-8: последствия 0/1
+            std::vector<std::string> cons;
+            auto c6 = cell_to_string(ws, r, 6);
+            auto c7 = cell_to_string(ws, r, 7);
+            auto c8 = cell_to_string(ws, r, 8);
+
+            if (c6 == "1") cons.push_back("Нарушение конфиденциальности");
+            if (c7 == "1") cons.push_back("Нарушение целостности");
+            if (c8 == "1") cons.push_back("Нарушение доступности");
+
+            std::string cons_text;
+            for (size_t i = 0; i < cons.size(); ++i) {
+                if (i) cons_text += ", ";
+                cons_text += cons[i];
+            }
+
+            out << csv_escape(code) << ';'
+                << csv_escape(title) << ';'
+                << csv_escape(desc) << ';'
+                << csv_escape(cons_text) << ';'
+                << csv_escape(source.empty() ? "fstec" : source)
+                << "\n";
         }
 
-        // ----------------------------
-        // ВЫЧИСЛЯЕМ КОЛ-ВО СТРОК:
-        // Идём вниз, пока первая колонка (или первые 2) не пустые N раз подряд.
-        // ----------------------------
-        uint32_t maxRows = 1;
-        emptyStreak = 0;
-        const uint32_t hardMaxRows = 200000; // защита на всякий
-
-        for (uint32_t row = 1; row <= hardMaxRows; ++row) {
-            // Для БДУ обычно первая колонка не должна быть пустой (код/ID)
-            // Но на всякий проверим первые 2 колонки
-            bool empty = is_row_empty(ws, row, (uint16_t)std::min<int>(maxCols, 2));
-            if (empty) emptyStreak++;
-            else {
-                emptyStreak = 0;
-                maxRows = row;
-            }
-            if (emptyStreak >= 30) break; // 30 пустых строк подряд -> конец
-        }
-
-        // ----------------------------
-        // ПИШЕМ CSV: rows x cols
-        // ----------------------------
-        for (uint32_t r = 1; r <= maxRows; ++r) {
-            for (uint16_t c = 1; c <= maxCols; ++c) {
-                auto cell = ws.cell(OpenXLSX::XLCellReference(r, c));
-                std::string s = cell_to_string(cell);
-
-                out << csv_escape(s);
-                if (c != maxCols) out << ';';
-            }
-            out << "\n";
-        }
-
+        out.close();
         doc.close();
         return true;
+
     } catch (const std::exception& e) {
         error = e.what();
-        return false;
-    } catch (...) {
-        error = "Unknown error in convert_xlsx_to_csv";
         return false;
     }
 }

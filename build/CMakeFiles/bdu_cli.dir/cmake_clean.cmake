@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/bdu_cli.dir/src/db.cpp.o.d"
   "CMakeFiles/bdu_cli.dir/src/downloader.cpp.o"
   "CMakeFiles/bdu_cli.dir/src/downloader.cpp.o.d"
+  "CMakeFiles/bdu_cli.dir/src/importer.cpp.o"
+  "CMakeFiles/bdu_cli.dir/src/importer.cpp.o.d"
   "CMakeFiles/bdu_cli.dir/src/main.cpp.o"
   "CMakeFiles/bdu_cli.dir/src/main.cpp.o.d"
   "CMakeFiles/bdu_cli.dir/src/search_session.cpp.o"

@@ -73,169 +73,169 @@ external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/main.cpp.o: external/OpenXL
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/main.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/main.cpp
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/main.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/main.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/main.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/main.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/main.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/main.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/main.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/main.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/main.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/main.cpp
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSXTests.dir/main.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/main.cpp > CMakeFiles/OpenXLSXTests.dir/main.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/main.cpp > CMakeFiles/OpenXLSXTests.dir/main.cpp.i
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSXTests.dir/main.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/main.cpp -o CMakeFiles/OpenXLSXTests.dir/main.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/main.cpp -o CMakeFiles/OpenXLSXTests.dir/main.cpp.s
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/flags.make
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDocument.cpp
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDocument.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDocument.cpp
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDocument.cpp > CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDocument.cpp > CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.i
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDocument.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDocument.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLDocument.cpp.s
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/flags.make
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCell.cpp
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCell.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCell.cpp
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCell.cpp > CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCell.cpp > CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.i
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCell.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCell.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLCell.cpp.s
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/flags.make
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellRange.cpp
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellRange.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellRange.cpp
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellRange.cpp > CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellRange.cpp > CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.i
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellRange.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellRange.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLCellRange.cpp.s
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/flags.make
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellReference.cpp
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellReference.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellReference.cpp
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellReference.cpp > CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellReference.cpp > CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.i
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellReference.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellReference.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLCellReference.cpp.s
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/flags.make
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValue.cpp
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValue.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValue.cpp
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValue.cpp > CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValue.cpp > CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.i
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValue.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValue.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLCellValue.cpp.s
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/flags.make
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValueProxy.cpp
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValueProxy.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValueProxy.cpp
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValueProxy.cpp > CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValueProxy.cpp > CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.i
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValueProxy.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLCellValueProxy.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLCellValueProxy.cpp.s
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/flags.make
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLColor.cpp
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLColor.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLColor.cpp
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLColor.cpp > CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLColor.cpp > CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.i
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLColor.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLColor.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLColor.cpp.s
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/flags.make
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDateTime.cpp
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDateTime.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDateTime.cpp
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDateTime.cpp > CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDateTime.cpp > CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.i
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDateTime.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLDateTime.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLDateTime.cpp.s
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/flags.make
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLFormula.cpp
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLFormula.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLFormula.cpp
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLFormula.cpp > CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLFormula.cpp > CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.i
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLFormula.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLFormula.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLFormula.cpp.s
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/flags.make
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLRow.cpp
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLRow.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLRow.cpp
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLRow.cpp > CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLRow.cpp > CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.i
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLRow.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLRow.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.s
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/flags.make
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLSheet.cpp
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.o: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.o"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLSheet.cpp
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.o -MF CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.o.d -o CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLSheet.cpp
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.i"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLSheet.cpp > CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.i
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLSheet.cpp > CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.i
 
 external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.s"
-	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLSheet.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.s
+	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/Tests/testXLSheet.cpp -o CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.s
 
 # Object files for target OpenXLSXTests
 OpenXLSXTests_OBJECTS = \
@@ -268,7 +268,7 @@ output/OpenXLSXTests: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testX
 output/OpenXLSXTests: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLRow.cpp.o
 output/OpenXLSXTests: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/testXLSheet.cpp.o
 output/OpenXLSXTests: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/build.make
-output/OpenXLSXTests: output/libOpenXLSX.a
+output/OpenXLSXTests: output/libOpenXLSXd.a
 output/OpenXLSXTests: external/OpenXLSX/Tests/CMakeFiles/OpenXLSXTests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ../../../output/OpenXLSXTests"
 	cd /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/Tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenXLSXTests.dir/link.txt --verbose=$(VERBOSE)

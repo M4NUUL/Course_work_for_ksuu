@@ -160,7 +160,11 @@ CMakeFiles/bdu_cli.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /usr/include/c++/13/limits /usr/include/c++/13/ctime \
  /usr/include/c++/13/bits/parse_numbers.h /usr/include/c++/13/chrono \
- /usr/include/termios.h /usr/include/x86_64-linux-gnu/bits/termios.h \
+ /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc /usr/include/termios.h \
+ /usr/include/x86_64-linux-gnu/bits/termios.h \
  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
  /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \
  /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h \
@@ -242,8 +246,7 @@ CMakeFiles/bdu_cli.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/13/bits/codecvt.h \
- /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+ /usr/include/libintl.h /usr/include/c++/13/bits/locale_facets_nonio.tcc \
  /usr/include/c++/13/bits/locale_conv.h \
  /usr/include/c++/13/bits/quoted_string.h \
  /usr/include/pqxx/internal/encoding_group.hxx \
@@ -280,4 +283,5 @@ CMakeFiles/bdu_cli.dir/src/main.cpp.o: \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/threats.hpp \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/search_session.hpp \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/downloader.hpp \
- /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/xlsx_converter.hpp
+ /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/xlsx_converter.hpp \
+ /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/importer.hpp

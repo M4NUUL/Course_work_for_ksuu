@@ -1,0 +1,306 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "external/OpenXLSX",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.OpenXLSX-Debug-87b453968b413f7a9396.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/OpenXLSX"
+				},
+				{
+					"build" : "external/OpenXLSX/OpenXLSX",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.OpenXLSX.OpenXLSX-Debug-766c8d18817496a7cd23.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "external/OpenXLSX/OpenXLSX",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "external/OpenXLSX/Documentation",
+					"jsonFile" : "directory-external.OpenXLSX.Documentation-Debug-39c8f1fa9a4ef39761a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "external/OpenXLSX/Documentation"
+				},
+				{
+					"build" : "external/OpenXLSX/Examples",
+					"jsonFile" : "directory-external.OpenXLSX.Examples-Debug-9e72e73386c3914c4653.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "external/OpenXLSX/Examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "external/OpenXLSX/Tests",
+					"jsonFile" : "directory-external.OpenXLSX.Tests-Debug-77fcdbe675c39ddbaab4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "external/OpenXLSX/Tests",
+					"targetIndexes" : 
+					[
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bdu_cli",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "OpenXLSX",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "OpenXLSX.Library",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "OpenXLSX.Documentation",
+					"parentIndex" : 1
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "OpenXLSX.Examples",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "OpenXLSX.Tests",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "Demo1::@c06c01380b7d038359fe",
+					"jsonFile" : "target-Demo1-Debug-18f76d2877ae2a1a4225.json",
+					"name" : "Demo1",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Demo10::@c06c01380b7d038359fe",
+					"jsonFile" : "target-Demo10-Debug-ddf39b29a7a172132ad4.json",
+					"name" : "Demo10",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Demo2::@c06c01380b7d038359fe",
+					"jsonFile" : "target-Demo2-Debug-faebf5068f706744df9e.json",
+					"name" : "Demo2",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Demo3::@c06c01380b7d038359fe",
+					"jsonFile" : "target-Demo3-Debug-dd41b58342be08019444.json",
+					"name" : "Demo3",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Demo4::@c06c01380b7d038359fe",
+					"jsonFile" : "target-Demo4-Debug-fb1a58d8dbd8b3b8b7a4.json",
+					"name" : "Demo4",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Demo5::@c06c01380b7d038359fe",
+					"jsonFile" : "target-Demo5-Debug-04e9b8b92d578aa1920a.json",
+					"name" : "Demo5",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Demo6::@c06c01380b7d038359fe",
+					"jsonFile" : "target-Demo6-Debug-dff4530176280c0e0115.json",
+					"name" : "Demo6",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Demo7::@c06c01380b7d038359fe",
+					"jsonFile" : "target-Demo7-Debug-f2e19363c150b9d9f077.json",
+					"name" : "Demo7",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Demo8::@c06c01380b7d038359fe",
+					"jsonFile" : "target-Demo8-Debug-7e8e1a56c3449579c035.json",
+					"name" : "Demo8",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Demo9::@c06c01380b7d038359fe",
+					"jsonFile" : "target-Demo9-Debug-a0f6e92e3cc93cfa87a1.json",
+					"name" : "Demo9",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "OpenXLSX::@41b5bafdbce81fcd0eba",
+					"jsonFile" : "target-OpenXLSX-Debug-c508c606bb910c2da66d.json",
+					"name" : "OpenXLSX",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "OpenXLSXTests::@8195c311a21219c47201",
+					"jsonFile" : "target-OpenXLSXTests-Debug-f29b374a3ea8f073263b.json",
+					"name" : "OpenXLSXTests",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bdu_cli::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bdu_cli-Debug-ed3e76268ef49379a5b5.json",
+					"name" : "bdu_cli",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build",
+		"source" : "/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

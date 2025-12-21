@@ -73,113 +73,127 @@ CMakeFiles/bdu_cli.dir/src/main.cpp.o: CMakeFiles/bdu_cli.dir/flags.make
 CMakeFiles/bdu_cli.dir/src/main.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/main.cpp
 CMakeFiles/bdu_cli.dir/src/main.cpp.o: CMakeFiles/bdu_cli.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bdu_cli.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/main.cpp.o -MF CMakeFiles/bdu_cli.dir/src/main.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/main.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/main.cpp.o -MF CMakeFiles/bdu_cli.dir/src/main.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/main.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/main.cpp
 
 CMakeFiles/bdu_cli.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bdu_cli.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/main.cpp > CMakeFiles/bdu_cli.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/main.cpp > CMakeFiles/bdu_cli.dir/src/main.cpp.i
 
 CMakeFiles/bdu_cli.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bdu_cli.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/main.cpp -o CMakeFiles/bdu_cli.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/main.cpp -o CMakeFiles/bdu_cli.dir/src/main.cpp.s
 
 CMakeFiles/bdu_cli.dir/src/db.cpp.o: CMakeFiles/bdu_cli.dir/flags.make
 CMakeFiles/bdu_cli.dir/src/db.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/db.cpp
 CMakeFiles/bdu_cli.dir/src/db.cpp.o: CMakeFiles/bdu_cli.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bdu_cli.dir/src/db.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/db.cpp.o -MF CMakeFiles/bdu_cli.dir/src/db.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/db.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/db.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/db.cpp.o -MF CMakeFiles/bdu_cli.dir/src/db.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/db.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/db.cpp
 
 CMakeFiles/bdu_cli.dir/src/db.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bdu_cli.dir/src/db.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/db.cpp > CMakeFiles/bdu_cli.dir/src/db.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/db.cpp > CMakeFiles/bdu_cli.dir/src/db.cpp.i
 
 CMakeFiles/bdu_cli.dir/src/db.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bdu_cli.dir/src/db.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/db.cpp -o CMakeFiles/bdu_cli.dir/src/db.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/db.cpp -o CMakeFiles/bdu_cli.dir/src/db.cpp.s
 
 CMakeFiles/bdu_cli.dir/src/auth.cpp.o: CMakeFiles/bdu_cli.dir/flags.make
 CMakeFiles/bdu_cli.dir/src/auth.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/auth.cpp
 CMakeFiles/bdu_cli.dir/src/auth.cpp.o: CMakeFiles/bdu_cli.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bdu_cli.dir/src/auth.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/auth.cpp.o -MF CMakeFiles/bdu_cli.dir/src/auth.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/auth.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/auth.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/auth.cpp.o -MF CMakeFiles/bdu_cli.dir/src/auth.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/auth.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/auth.cpp
 
 CMakeFiles/bdu_cli.dir/src/auth.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bdu_cli.dir/src/auth.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/auth.cpp > CMakeFiles/bdu_cli.dir/src/auth.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/auth.cpp > CMakeFiles/bdu_cli.dir/src/auth.cpp.i
 
 CMakeFiles/bdu_cli.dir/src/auth.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bdu_cli.dir/src/auth.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/auth.cpp -o CMakeFiles/bdu_cli.dir/src/auth.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/auth.cpp -o CMakeFiles/bdu_cli.dir/src/auth.cpp.s
 
 CMakeFiles/bdu_cli.dir/src/crypto.cpp.o: CMakeFiles/bdu_cli.dir/flags.make
 CMakeFiles/bdu_cli.dir/src/crypto.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/crypto.cpp
 CMakeFiles/bdu_cli.dir/src/crypto.cpp.o: CMakeFiles/bdu_cli.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bdu_cli.dir/src/crypto.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/crypto.cpp.o -MF CMakeFiles/bdu_cli.dir/src/crypto.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/crypto.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/crypto.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/crypto.cpp.o -MF CMakeFiles/bdu_cli.dir/src/crypto.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/crypto.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/crypto.cpp
 
 CMakeFiles/bdu_cli.dir/src/crypto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bdu_cli.dir/src/crypto.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/crypto.cpp > CMakeFiles/bdu_cli.dir/src/crypto.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/crypto.cpp > CMakeFiles/bdu_cli.dir/src/crypto.cpp.i
 
 CMakeFiles/bdu_cli.dir/src/crypto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bdu_cli.dir/src/crypto.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/crypto.cpp -o CMakeFiles/bdu_cli.dir/src/crypto.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/crypto.cpp -o CMakeFiles/bdu_cli.dir/src/crypto.cpp.s
 
 CMakeFiles/bdu_cli.dir/src/threats.cpp.o: CMakeFiles/bdu_cli.dir/flags.make
 CMakeFiles/bdu_cli.dir/src/threats.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/threats.cpp
 CMakeFiles/bdu_cli.dir/src/threats.cpp.o: CMakeFiles/bdu_cli.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bdu_cli.dir/src/threats.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/threats.cpp.o -MF CMakeFiles/bdu_cli.dir/src/threats.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/threats.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/threats.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/threats.cpp.o -MF CMakeFiles/bdu_cli.dir/src/threats.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/threats.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/threats.cpp
 
 CMakeFiles/bdu_cli.dir/src/threats.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bdu_cli.dir/src/threats.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/threats.cpp > CMakeFiles/bdu_cli.dir/src/threats.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/threats.cpp > CMakeFiles/bdu_cli.dir/src/threats.cpp.i
 
 CMakeFiles/bdu_cli.dir/src/threats.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bdu_cli.dir/src/threats.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/threats.cpp -o CMakeFiles/bdu_cli.dir/src/threats.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/threats.cpp -o CMakeFiles/bdu_cli.dir/src/threats.cpp.s
 
 CMakeFiles/bdu_cli.dir/src/search_session.cpp.o: CMakeFiles/bdu_cli.dir/flags.make
 CMakeFiles/bdu_cli.dir/src/search_session.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/search_session.cpp
 CMakeFiles/bdu_cli.dir/src/search_session.cpp.o: CMakeFiles/bdu_cli.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bdu_cli.dir/src/search_session.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/search_session.cpp.o -MF CMakeFiles/bdu_cli.dir/src/search_session.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/search_session.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/search_session.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/search_session.cpp.o -MF CMakeFiles/bdu_cli.dir/src/search_session.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/search_session.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/search_session.cpp
 
 CMakeFiles/bdu_cli.dir/src/search_session.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bdu_cli.dir/src/search_session.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/search_session.cpp > CMakeFiles/bdu_cli.dir/src/search_session.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/search_session.cpp > CMakeFiles/bdu_cli.dir/src/search_session.cpp.i
 
 CMakeFiles/bdu_cli.dir/src/search_session.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bdu_cli.dir/src/search_session.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/search_session.cpp -o CMakeFiles/bdu_cli.dir/src/search_session.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/search_session.cpp -o CMakeFiles/bdu_cli.dir/src/search_session.cpp.s
 
 CMakeFiles/bdu_cli.dir/src/downloader.cpp.o: CMakeFiles/bdu_cli.dir/flags.make
 CMakeFiles/bdu_cli.dir/src/downloader.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/downloader.cpp
 CMakeFiles/bdu_cli.dir/src/downloader.cpp.o: CMakeFiles/bdu_cli.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/bdu_cli.dir/src/downloader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/downloader.cpp.o -MF CMakeFiles/bdu_cli.dir/src/downloader.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/downloader.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/downloader.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/downloader.cpp.o -MF CMakeFiles/bdu_cli.dir/src/downloader.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/downloader.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/downloader.cpp
 
 CMakeFiles/bdu_cli.dir/src/downloader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bdu_cli.dir/src/downloader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/downloader.cpp > CMakeFiles/bdu_cli.dir/src/downloader.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/downloader.cpp > CMakeFiles/bdu_cli.dir/src/downloader.cpp.i
 
 CMakeFiles/bdu_cli.dir/src/downloader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bdu_cli.dir/src/downloader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/downloader.cpp -o CMakeFiles/bdu_cli.dir/src/downloader.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/downloader.cpp -o CMakeFiles/bdu_cli.dir/src/downloader.cpp.s
 
 CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o: CMakeFiles/bdu_cli.dir/flags.make
 CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/xlsx_converter.cpp
 CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o: CMakeFiles/bdu_cli.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o -MF CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/xlsx_converter.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o -MF CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/xlsx_converter.cpp
 
 CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/xlsx_converter.cpp > CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/xlsx_converter.cpp > CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.i
 
 CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/xlsx_converter.cpp -o CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/xlsx_converter.cpp -o CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.s
+
+CMakeFiles/bdu_cli.dir/src/importer.cpp.o: CMakeFiles/bdu_cli.dir/flags.make
+CMakeFiles/bdu_cli.dir/src/importer.cpp.o: /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/importer.cpp
+CMakeFiles/bdu_cli.dir/src/importer.cpp.o: CMakeFiles/bdu_cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/bdu_cli.dir/src/importer.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/bdu_cli.dir/src/importer.cpp.o -MF CMakeFiles/bdu_cli.dir/src/importer.cpp.o.d -o CMakeFiles/bdu_cli.dir/src/importer.cpp.o -c /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/importer.cpp
+
+CMakeFiles/bdu_cli.dir/src/importer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/bdu_cli.dir/src/importer.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/importer.cpp > CMakeFiles/bdu_cli.dir/src/importer.cpp.i
+
+CMakeFiles/bdu_cli.dir/src/importer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/bdu_cli.dir/src/importer.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/importer.cpp -o CMakeFiles/bdu_cli.dir/src/importer.cpp.s
 
 # Object files for target bdu_cli
 bdu_cli_OBJECTS = \
@@ -190,7 +204,8 @@ bdu_cli_OBJECTS = \
 "CMakeFiles/bdu_cli.dir/src/threats.cpp.o" \
 "CMakeFiles/bdu_cli.dir/src/search_session.cpp.o" \
 "CMakeFiles/bdu_cli.dir/src/downloader.cpp.o" \
-"CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o"
+"CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o" \
+"CMakeFiles/bdu_cli.dir/src/importer.cpp.o"
 
 # External object files for target bdu_cli
 bdu_cli_EXTERNAL_OBJECTS =
@@ -203,13 +218,14 @@ bdu_cli: CMakeFiles/bdu_cli.dir/src/threats.cpp.o
 bdu_cli: CMakeFiles/bdu_cli.dir/src/search_session.cpp.o
 bdu_cli: CMakeFiles/bdu_cli.dir/src/downloader.cpp.o
 bdu_cli: CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o
+bdu_cli: CMakeFiles/bdu_cli.dir/src/importer.cpp.o
 bdu_cli: CMakeFiles/bdu_cli.dir/build.make
-bdu_cli: /usr/lib/x86_64-linux-gnu/libssl.so
+bdu_cli: /usr/lib/x86_64-linux-gnu/libpq.so
 bdu_cli: /usr/lib/x86_64-linux-gnu/libcrypto.so
 bdu_cli: /usr/lib/x86_64-linux-gnu/libcurl.so
-bdu_cli: output/libOpenXLSX.a
+bdu_cli: output/libOpenXLSXd.a
 bdu_cli: CMakeFiles/bdu_cli.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable bdu_cli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable bdu_cli"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bdu_cli.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
