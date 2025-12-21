@@ -116,9 +116,7 @@ CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o: \
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
  /usr/include/c++/13/bits/uses_allocator.h \
  /usr/include/c++/13/bits/uses_allocator_args.h /usr/include/c++/13/tuple \
- /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/OpenXLSX.hpp \
- /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLCell.hpp \
- /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
+ /usr/include/c++/13/fstream /usr/include/c++/13/istream \
  /usr/include/c++/13/ios /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \
  /usr/include/c++/13/bits/cxxabi_init_exception.h \
@@ -152,11 +150,33 @@ CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o: \
  /usr/include/c++/13/bits/streambuf_iterator.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h \
  /usr/include/c++/13/bits/locale_facets.tcc \
- /usr/include/c++/13/bits/basic_ios.tcc \
- /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/basic_ios.tcc /usr/include/c++/13/ostream \
+ /usr/include/c++/13/bits/ostream.tcc \
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/algorithm \
+ /usr/include/c++/13/bits/stl_algo.h \
+ /usr/include/c++/13/bits/algorithmfwd.h \
+ /usr/include/c++/13/bits/stl_heap.h \
+ /usr/include/c++/13/bits/uniform_int_dist.h \
  /usr/include/c++/13/bits/stl_tempbuf.h \
+ /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/vector \
  /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/unordered_map \
+ /usr/include/c++/13/bits/unordered_map.h \
+ /usr/include/c++/13/bits/hashtable.h \
+ /usr/include/c++/13/bits/hashtable_policy.h \
+ /usr/include/c++/13/ext/aligned_buffer.h \
+ /usr/include/c++/13/bits/enable_special_members.h \
+ /usr/include/c++/13/bits/node_handle.h \
+ /usr/include/c++/13/bits/erase_if.h \
+ /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/OpenXLSX.hpp \
+ /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLCell.hpp \
+ /usr/include/c++/13/iostream /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
  /usr/include/c++/13/bits/align.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
@@ -166,14 +186,12 @@ CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o: \
  /usr/include/c++/13/bits/shared_ptr.h \
  /usr/include/c++/13/bits/shared_ptr_base.h \
  /usr/include/c++/13/bits/allocated_ptr.h \
- /usr/include/c++/13/ext/aligned_buffer.h \
  /usr/include/c++/13/ext/concurrence.h \
  /usr/include/c++/13/bits/shared_ptr_atomic.h \
  /usr/include/c++/13/bits/atomic_base.h \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/build/external/OpenXLSX/OpenXLSX/OpenXLSX-Exports.hpp \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLCellReference.hpp \
  /usr/include/c++/13/cstdint /usr/include/c++/13/utility \
@@ -202,7 +220,6 @@ CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o: \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
  /usr/include/c++/13/tr1/riemann_zeta.tcc /usr/include/c++/13/variant \
- /usr/include/c++/13/bits/enable_special_members.h \
  /usr/include/c++/13/bits/parse_numbers.h \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLDateTime.hpp \
  /usr/include/c++/13/ctime \
@@ -242,28 +259,14 @@ CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o: \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLSharedStrings.hpp \
  /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
  /usr/include/c++/13/bits/deque.tcc /usr/include/c++/13/functional \
- /usr/include/c++/13/bits/std_function.h \
- /usr/include/c++/13/unordered_map \
- /usr/include/c++/13/bits/unordered_map.h \
- /usr/include/c++/13/bits/hashtable.h \
- /usr/include/c++/13/bits/hashtable_policy.h \
- /usr/include/c++/13/bits/node_handle.h \
- /usr/include/c++/13/bits/erase_if.h /usr/include/c++/13/vector \
- /usr/include/c++/13/bits/stl_vector.h \
- /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/array \
- /usr/include/c++/13/compare /usr/include/c++/13/bits/stl_algo.h \
- /usr/include/c++/13/bits/algorithmfwd.h \
- /usr/include/c++/13/bits/stl_heap.h \
- /usr/include/c++/13/bits/uniform_int_dist.h \
+ /usr/include/c++/13/bits/std_function.h /usr/include/c++/13/array \
+ /usr/include/c++/13/compare \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLXmlFile.hpp \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLStyles.hpp \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLColor.hpp \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLCellRange.hpp \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLCell.hpp \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLCellIterator.hpp \
- /usr/include/c++/13/algorithm \
- /usr/include/c++/13/pstl/glue_algorithm_defs.h \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLIterator.hpp \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLCellReference.hpp \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLCellValue.hpp \
@@ -303,9 +306,4 @@ CMakeFiles/bdu_cli.dir/src/xlsx_converter.cpp.o: \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLMergeCells.hpp \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLRow.hpp \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLWorkbook.hpp \
- /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLZipArchive.hpp \
- /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/sstream \
- /usr/include/c++/13/bits/sstream.tcc
+ /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/external/OpenXLSX/OpenXLSX/headers/XLZipArchive.hpp

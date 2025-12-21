@@ -13,12 +13,16 @@ struct Threat {
     std::string source;
 };
 
+
+
 class ThreatRepository {
 public:
     explicit ThreatRepository(Db& db);
     std::optional<Threat> get_by_code(const std::string& threat_code);
 
     std::vector<Threat> search_by_keyword(const std::string& keyword, int limit = 200);
-private:
+    bool insert_threat(const Threat& t, long user_id, std::string& error);
+    
+    private:
     Db& db_;
 };

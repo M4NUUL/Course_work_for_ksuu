@@ -50,12 +50,13 @@ bool AuthService::register_user(const std::string& login,
 
     const std::string salt = random_salt_hex(16);
     const std::string hash = sha256_hex(password + salt);
-    const bool admin = is_first_user(); // первый пользователь — админ
+    const bool first = is_first_user(); // первый пользователь — админ
+    const std::string role = first ? "admin" : "viewer";
 
     pqxx::work tx(db_.conn());
     tx.exec_params(
-        "INSERT INTO users(login, email, password_hash, salt, is_admin) VALUES($1,$2,$3,$4,$5)",
-        login, email, hash, salt, admin
+        "INSERT INTO users(login, email, password_hash, salt, is_admin, role) VALUES($1,$2,$3,$4,$5,$6)",
+        login, email, hash, salt, first, role
     );
     tx.commit();
 
@@ -68,7 +69,7 @@ bool AuthService::login_user(const std::string& login,
                              std::string& error) const {
     pqxx::work tx(db_.conn());
     auto r = tx.exec_params(
-        "SELECT id, login, email, password_hash, salt, is_admin FROM users WHERE login = $1",
+        "SELECT id, login, email, password_hash, salt, is_admin, role FROM users WHERE login = $1",
         login
     );
     tx.commit();
@@ -81,9 +82,16 @@ bool AuthService::login_user(const std::string& login,
 
     if (got != expected) { error = "Неверный логин или пароль."; return false; }
 
-    out_user.id = r[0]["id"].as<long long>();
+    out_user.id    = r[0]["id"].as<long long>();
     out_user.login = r[0]["login"].c_str();
     out_user.email = r[0]["email"].c_str();
-    out_user.is_admin = r[0]["is_admin"].as<bool>();
+
+    try {
+        out_user.role = r[0]["role"].as<std::string>();
+        if (out_user.role.empty()) out_user.role = r[0]["is_admin"].as<bool>() ? "admin" : "viewer";
+    } catch (...) {
+        out_user.role = r[0]["is_admin"].as<bool>() ? "admin" : "viewer";
+    }
+
     return true;
 }

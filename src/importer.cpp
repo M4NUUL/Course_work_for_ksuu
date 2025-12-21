@@ -133,6 +133,11 @@ bool import_threats_csv(Db& db,
             else stats.updated++;
         }
 
+tx.exec_params(
+  "INSERT INTO update_log(user_id, inserted, updated, source) VALUES($1,$2,$3,$4)",
+  user_id, stats.inserted, stats.updated, csv_path
+);
+ 
         tx.commit();
         return true;
 

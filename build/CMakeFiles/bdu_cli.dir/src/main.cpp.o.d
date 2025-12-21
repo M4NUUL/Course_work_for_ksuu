@@ -160,11 +160,7 @@ CMakeFiles/bdu_cli.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /usr/include/c++/13/limits /usr/include/c++/13/ctime \
  /usr/include/c++/13/bits/parse_numbers.h /usr/include/c++/13/chrono \
- /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc /usr/include/termios.h \
- /usr/include/x86_64-linux-gnu/bits/termios.h \
+ /usr/include/termios.h /usr/include/x86_64-linux-gnu/bits/termios.h \
  /usr/include/x86_64-linux-gnu/bits/termios-struct.h \
  /usr/include/x86_64-linux-gnu/bits/termios-c_cc.h \
  /usr/include/x86_64-linux-gnu/bits/termios-c_iflag.h \
@@ -181,10 +177,9 @@ CMakeFiles/bdu_cli.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h \
- /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/db.hpp \
- /usr/include/pqxx/pqxx /usr/include/pqxx/internal/header-pre.hxx \
- /usr/include/c++/13/version /usr/include/pqxx/internal/cxx-features.hxx \
+ /usr/include/linux/close_range.h /usr/include/pqxx/pqxx \
+ /usr/include/pqxx/internal/header-pre.hxx /usr/include/c++/13/version \
+ /usr/include/pqxx/internal/cxx-features.hxx \
  /usr/include/pqxx/config-public-compiler.h /usr/include/c++/13/ciso646 \
  /usr/include/pqxx/array.hxx /usr/include/c++/13/algorithm \
  /usr/include/c++/13/bits/stl_algo.h \
@@ -246,7 +241,8 @@ CMakeFiles/bdu_cli.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+ /usr/include/libintl.h /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc \
  /usr/include/c++/13/bits/locale_conv.h \
  /usr/include/c++/13/bits/quoted_string.h \
  /usr/include/pqxx/internal/encoding_group.hxx \
@@ -279,6 +275,7 @@ CMakeFiles/bdu_cli.dir/src/main.cpp.o: \
  /usr/include/pqxx/subtransaction.hxx /usr/include/pqxx/time.hxx \
  /usr/include/pqxx/transactor.hxx \
  /usr/include/pqxx/internal/header-post.hxx \
+ /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/db.hpp \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/auth.hpp \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/threats.hpp \
  /home/m4nuul/Coding/Ksuu/Course_work_for_ksuu/src/search_session.hpp \

@@ -5,6 +5,39 @@
 
 ThreatRepository::ThreatRepository(Db& db) : db_(db) {}
 
+bool ThreatRepository::insert_threat(const Threat& t, long user_id, std::string& error) {
+    if (t.code.empty()) {
+        error = "threat_code пустой";
+        return false;
+    }
+
+    try {
+        pqxx::work tx(db_.conn());
+        // Попытка вставить; если уже есть — DO NOTHING
+        auto r = tx.exec_params(R"SQL(
+            INSERT INTO threats(
+                threat_code, title, description, consequences, source, created_by, created_at
+            ) VALUES(
+                $1, $2, $3, $4, $5, $6, now()
+            )
+            ON CONFLICT (threat_code) DO NOTHING
+            RETURNING threat_code
+        )SQL",
+        t.code, t.title, t.description, t.consequences, t.source, user_id);
+
+        tx.commit();
+
+        if (r.empty()) {
+            error = "Угроза с таким кодом уже существует";
+            return false;
+        }
+        return true;
+    } catch (const std::exception& e) {
+        error = e.what();
+        return false;
+    }
+}
+
 std::optional<Threat> ThreatRepository::get_by_code(const std::string& threat_code) {
     pqxx::work tx(db_.conn());
     auto r = tx.exec_params(
